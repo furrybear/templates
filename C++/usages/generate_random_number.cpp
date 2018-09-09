@@ -6,7 +6,7 @@ int main()
 {
     //随机数引擎
     default_random_engine e;
-    //随机浮点数分布类对象，范围为[0,9]
+    //随机浮点数分布类对象，范围为[0,1)
     uniform_real_distribution<double> rr(0.0, 1.0);
     for (int i = 0; i < 10; ++i)
         cout << rr(e) << endl;
