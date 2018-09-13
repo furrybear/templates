@@ -1,7 +1,7 @@
 //--------------------------------------
 //Problem: Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. 1 is the first ugly number.
 //Target: Input n and find the n’th ugly number.
-//Solution: Generate the ugly number sequence in memory. "i_2" is the index of the first element from left, whoes double value is greater than the last element. "value_2" is the double value. "i_3", "i_5", "value_3" and "value_5" have similar meaning. The next element pushed into the sequence is the minimum of "value_2", "value_3" and "value_5".
+//Solution: Generate the ugly number sequence in memory. "i_2" is the index of the first element from left, whoes value multiplied by 2 is greater than the last element. "value_2" is the value multiplied by 2. "i_3", "i_5", "value_3" and "value_5" have similar meaning. The next element pushed into the sequence is the minimum of "value_2", "value_3" and "value_5".
 //Author: furrybear<bearcubhaha@gmail.com>
 //--------------------------------------
 #include <iostream>
