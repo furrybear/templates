@@ -22,8 +22,14 @@ int main(int argc, char const* argv[])
     auto my_class_equal = [](const my_class& le, const my_class& re) {
         return le.id == re.id;
     };
-    using my_set = std::unordered_set<my_class, decltype(my_class_hash), decltype(my_class_equal)>;
-    my_set s(10, my_class_hash, my_class_equal);
+    unordered_set<
+        my_class,
+        decltype(my_class_hash),
+        decltype(my_class_equal)>
+        s(
+            0,//set will override the bucket count to proper value
+            my_class_hash,
+            my_class_equal);
     s.insert(my_class{ 0, 10 });
     s.insert(my_class{ 1, 30 });
     s.insert(my_class{ 0, 20 });
