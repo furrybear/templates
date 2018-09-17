@@ -1,6 +1,6 @@
 /*******************************************
 Problem: KMP algorithm
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 
 Input Sample:
 BBC ABCDAB ABCDABCDABDE

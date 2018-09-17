@@ -1,6 +1,6 @@
 /*******************************************
-Problem: Quick Sort
-Author: furrybear<bearcubhaha@gmail.com>
+Problem: Quick sort
+Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <iostream>
 using namespace std;

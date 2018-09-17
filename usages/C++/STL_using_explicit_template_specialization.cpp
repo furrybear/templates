@@ -1,6 +1,6 @@
 /*******************************************
 Target: Use STL container and algorithm with explicit template specialization for more custom function
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <algorithm>
 #include <iostream>

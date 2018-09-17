@@ -1,6 +1,6 @@
 /*******************************************
 Problem: Calculate combination number in dynamic programming
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <ctime>
 #include <iostream>

@@ -1,6 +1,6 @@
 /*******************************************
 Problem: Restore binary tree from its preorder and inorder.
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <iostream>
 using namespace std;

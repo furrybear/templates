@@ -1,6 +1,6 @@
 /*******************************************
 Problem: 0-1 knapsack problem.
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 Input Sample：
 4
 20 20

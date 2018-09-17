@@ -1,6 +1,6 @@
 /*******************************************
 Target: Use STL container and algorithm with lamda for custom function
-Author: furrybear<bearcubhaha@gmail.com>
+Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <algorithm>
 #include <iostream>
@@ -27,7 +27,7 @@ int main(int argc, char const* argv[])
         decltype(my_class_hash),
         decltype(my_class_equal)>
         s(
-            0,//set will override the bucket count to proper value
+            0, //set will override the bucket count to proper value
             my_class_hash,
             my_class_equal);
     s.insert(my_class{ 0, 10 });

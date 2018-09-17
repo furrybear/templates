@@ -1,3 +1,7 @@
+/*******************************************
+Target: How to generate random number with header random
+Author: furrybear<fbcll@outlook.com>
+********************************************/
 #include <iostream>
 #include <random>
 using namespace std;
