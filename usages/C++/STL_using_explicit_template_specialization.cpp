@@ -1,5 +1,5 @@
 /*******************************************
-Target: Use STL container and algorithm with explicit template specialization for more custom function
+Target: Use STL container with explicit template specialization for more custom function
 Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <algorithm>
@@ -31,15 +31,6 @@ struct equal_to<my_class> {
         return le.id == re.id;
     }
 };
-/*
-template <>
-struct comp<my_class> {
-    bool operator()(const my_class& le, const my_class& re) const
-    {
-        return le.id < re.id;
-    }
-};
-*/
 };
 
 int main()
@@ -53,16 +44,5 @@ int main()
         cout << "Value of ID " << e.id << ": " << e.num << endl;
     }
     cout << "Size of set: " << s.size() << endl;
-    /*
-    vector<my_class> v;
-    v.push_back(my_class{ 2, 10 });
-    v.push_back(my_class{ 3, 10 });
-    v.push_back(my_class{ 0, 10 });
-    v.push_back(my_class{ 1, 10 });
-    sort(v.begin(), v.end());
-    cout << "Vector after sorting:" << endl;
-    for (const auto& e : v) {
-        cout << "Value of ID " << e.id << ": " << e.num << endl;
-    }*/
     return 0;
 }
