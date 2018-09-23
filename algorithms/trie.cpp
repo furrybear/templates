@@ -1,6 +1,6 @@
 /*******************************************
 Problem: Trie tree.
-Remark: What character a node represents depends on the key of the map in the node's parent. The node doesn't store the character.
+Remark: What character a node represents depends on the key of the map in the node's parent. The node itself doesn't store the character.
 Author: furrybear<fbcll@outlook.com>
 ********************************************/
 #include <iostream>
