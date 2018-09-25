@@ -31,7 +31,7 @@ public:
     {
         auto cur_node = root;
         for (auto it = s.begin(); it != s.end(); it++) {
-            auto tmp_result = cur_node->next.insert({ *it, make_shared<node>() });
+            auto&& tmp_result = cur_node->next.insert({ *it, make_shared<node>() });
             cur_node = get<0>(tmp_result)->second;
         }
         cur_node->is_end = true;
@@ -40,7 +40,7 @@ public:
     {
         auto cur_node = root;
         for (auto it = s.begin(); it != s.end(); it++) {
-            auto next_node_it = cur_node->next.find(*it);
+            auto&& next_node_it = cur_node->next.find(*it);
             if (next_node_it == cur_node->next.end()) {
                 return false;
             } else {
